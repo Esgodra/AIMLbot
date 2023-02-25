@@ -59,3 +59,13 @@
 </category>
 
 </aiml>
+
+<category>
+   <pattern>que fecha es hoy</pattern>
+   <template>
+      Hoy es:
+      <system>date</system>
+   </template>
+</category>
+
+</aiml>

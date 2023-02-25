@@ -7,3 +7,4 @@
 0,ganare el curso,*,*," <random><li> si </li><li> no </li></random> <get name = ""username""/> ",ejm.aiml
 0,cual es tu deporte favorito,*,*,<random><li>futbol</li><li>basquetbol</li><li>natacion</li><li>karate</li><li>boxeo</li></random>,elm.aimlfutbol
 0,abre blender,*,*,<template><system>prime-run blender</system></template>,ejm.aiml
+0,que fecha es hoy,*,*,"<template>"Hoy es:"<system>date</system></template>",ejm.aim
