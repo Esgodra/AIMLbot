@@ -1,1 +1,56 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+   <pattern>que es el arte</pattern>
+   <template>El arte es indefinible. Para hacerlo hay que revisar su historia y repercusión a nivel social para entender sus alcances y sentido. Sólo así se puede entender lo que hay detrás de él. Paul Valéry lo descubre muy bien de la siguiente manera: “Si un pájaro supiera explicar lo que canta, por qué y cómo canta, dejaría de cantar”.</template>
+</category>
+<category>
+    <pattern>no entiendo el arte</pattern>
+    <template>Ninguna persona ha muerto por no entender una obra de arte. Sin embargo, no hacerlo equivale a tener una conversación donde no se ha entendido el mensaje entre interlocutores.</template>
+</category>
+
+<category>
+    <pattern>el arte es subjetivo</pattern>
+    <template>Los expertos señalan que ningún arte nace completamente del yo, si bien termina siendo el último filtro para la creación de una obra. Fuentes familiares, afectivas, sociales e incluso históricas conforman el agua de la cual bebe un artista para llevar a cabo una obra con su propia visión.</template>
+</category>
+
+<category>
+    <pattern>una falsificacion es arte</pattern>
+    <template>¡Jamás! Es como si se debatiera acerca de si tu clon y tú son la misma persona.</template>
+</category>
+
+<category>
+    <pattern>quien pinto la gioconda</pattern>
+    <template>Leonardo da Vinci</template>
+</category>
+
+<category>
+    <pattern>porque es famoso van gogh</pattern>
+    <template>
+        <random>
+            <li>por pintar la noche estrellada</li>
+            <li>por cortarse la oreja</li>
+            <li>por pintar los girasoles</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>pintura famosa de leonardo da vinci</pattern>
+    <template>
+        <random>
+            <li>salvador mundi</li>
+            <li>la ultima cena</li>
+            <li>la giocconda</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+</aiml>
