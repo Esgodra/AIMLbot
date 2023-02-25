@@ -1,6 +1,7 @@
-0,hola alice,*,*,hola usuario,ejm.aiml
-0,donde estudias,*,*,yo estudio en la umg,ejm.aiml
-0,UN * ES UN *,*,*,"Como <star index = ""1""/> no puede ser <star index = ""2""/>?",ejm.aiml
-0,hola,*,*," <random><li> hola hola </li><li> Hi! </li></random>",ejm.aiml
-0,me llamo *,*,*,"hola <star index = ""1""/>?",ejm.aiml
-0,mi nombre es *,*,*," que bien q estes en el curso <set name = ""username""> <star/>! </set>",ejm.aiml
+0,que es el arte,*,*,El arte es indefinible. Para hacerlo hay que revisar su historia y repercusión a nivel social para entender sus alcances y sentido. Sólo así se puede entender lo que hay detrás de él. Paul Valéry lo descubre muy bien de la siguiente manera: “Si un pájaro supiera explicar lo que canta, por qué y cómo canta, dejaría de cantar”.,arte.aiml
+0,no entiendo el arte,*,*,Ninguna persona ha muerto por no entender una obra de arte. Sin embargo, no hacerlo equivale a tener una conversación donde no se ha entendido el mensaje entre interlocutores.,arte.aiml
+0,el arte es subjetivo<,*,*,Los expertos señalan que ningún arte nace completamente del yo, si bien termina siendo el último filtro para la creación de una obra. Fuentes familiares, afectivas, sociales e incluso históricas conforman el agua de la cual bebe un artista para llevar a cabo una obra con su propia visión.,arte.aiml
+0,una falsificacion es arte,*,*,¡Jamás! Es como si se debatiera acerca de si tu clon y tú son la misma persona.,arte.aiml
+0,quien pinto la gioconda,*,*,Leonardo da Vinci,arte.aiml
+0,porque es famoso van gogh,*,*,"  <random><li>por pintar la noche estrellada</li><li>por cortarse la oreja</li><li>por pintar los girasoles</li></random>",arte.aiml
+0,pintura famosa de leonardo da vinci,*,*," <random><li>salvador mundi</li><li>la ultima cena</li><li>la giocconda</li></random>",arte.aiml
