@@ -2,70 +2,43 @@
 <aiml>
 
 <category>
-   <pattern>hola alice</pattern>
-   <template>Hola usuario</template>
+   <pattern>*primer celular *</pattern>
+   <template>El pionero en comercializarse fue este Motorola DynaTAC 8000x, que ya ha cumplido 30 años (13 de marzo de 1984).</template>
 </category>
 
 <category>
-   <pattern>donde estudias</pattern>
-   <template>yo estudio en la umg</template>
+   <pattern>que es un ssd</pattern>
+   <template>es una unidad de estado solido, se trata de una placa formada por varias memorias (de tipo flash, casi siempre) que no hace falta leer con un brazo lector, como en los discos.</template>
 </category>
 
 <category>
-   <pattern>UN * ES UNA *</pattern>
-   <template>¿Cuándo <star index = "1"/> no puede ser una <star index = "2"/>?</template>
+   <pattern>que es la tecnologia</pattern>
+   <template>La tecnología es el conjunto de artefactos y actividades creados por los seres humanos para resolver problemas o satisfacer necesidades.</template>
 </category>
 
 <category>
-   <pattern>hola</pattern>
+   <pattern>cuando surgio la tecnologi</pattern>
+   <template>Se puede decir que la tecnología surgió en la Edad de Piedra (hace alrededor de 900.000 años), con la fabricación de las primeras herramientas de piedra, el dominio del fuego y la confección de vestimentas con pieles.</template>
+</category>
+
+<category>
+   <pattern>logros tecnologicos</pattern>
    <template>
       <random>
-         <li> hola hola </li>
-         <li> Hi!  </li>
+         <li> Producción y control del fuego </li>
+         <li> La rueda </li>
+         <li> El arado </li>
+         <li> El papel </li>
+         <li> La imprenta </li>
+         <li> La maquina de vapor </li>
+         <li> Las vacunas </li>
+         <li> La bombilla electrica </li>
+         <li> La computadora </li>
+         <li> El satelite artificial </li>
+         <li> El internet </li>
+
       </random>
    </template>
 <category>
-
-
-<category>
-   <pattern>me llamo *</pattern>
-   <template>
-      hola <star index = "1"/>?
-   </template>
-</category>
-
-<category>
-   <pattern>mi nombre es *</pattern>
-   <template>
-      que bien q estes en el curso <set name = "nombre"> <star/>! </set>
-   </template>
-</category>
-
-<category>
-   <pattern>ganare el curso</pattern>
-   <template>
-      <random>
-         <li> si </li>
-         <li> no  </li>
-      </random> <get name = "username"/>
-   </template>
-</category>
-
-<category>
-   <pattern>abre blender</pattern>
-   <template>
-      <system>prime-run blender </system>
-   </template>
-</category>
-
-</aiml>
-
-<category>
-   <pattern>que fecha es hoy</pattern>
-   <template>
-      Hoy es:
-      <system>date</system>
-   </template>
-</category>
 
 </aiml>
