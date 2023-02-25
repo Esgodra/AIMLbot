@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+   <pattern>hola alice</pattern>
+   <template>Hola usuario</template>
+</category>
+
+<category>
+   <pattern>donde estudias</pattern>
+   <template>yo estudio en la umg</template>
+</category>
+
+<category>
+   <pattern>UN * ES UNA *</pattern>
+   <template>¿Cuándo <star index = "1"/> no puede ser una <star index = "2"/>?</template>
+</category>
+
+<category>
+   <pattern>hola</pattern>
+   <template>
+      <random>
+         <li> hola hola </li>
+         <li> Hi!  </li>
+      </random>
+   </template>
+<category>
+
+
+<category>
+   <pattern>me llamo *</pattern>
+   <template>
+      hola <star index = "1"/>?
+   </template>
+</category>
+
+<category>
+   <pattern>mi nombre es *</pattern>
+   <template>
+      que bien q estes en el curso <set name = "nombre"> <star/>! </set>
+   </template>
+</category>
+
+<category>
+   <pattern>ganare el curso</pattern>
+   <template>
+      <random>
+         <li> si </li>
+         <li> no  </li>
+      </random> <get name = "username"/>
+   </template>
+</category>
+
+<category>
+   <pattern>abre blender</pattern>
+   <template>
+      <system>prime-run blender </system>
+   </template>
+</category>
+
+</aiml>
+
+<category>
+   <pattern>que fecha es hoy</pattern>
+   <template>
+      Hoy es:
+      <system>date</system>
+   </template>
+</category>
+
+</aiml>
